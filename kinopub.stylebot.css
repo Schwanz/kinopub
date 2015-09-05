@@ -707,7 +707,7 @@ FORM#form-item-filter .jumbotron:before {
     content: 'Фильтр';
     font-size: 1.2em;
     line-height: 1.1;
-    padding-bottom: 4px;
+    padding: 1px 0 4px;
     position: absolute;
     width: 100%;
     z-index: 1;
