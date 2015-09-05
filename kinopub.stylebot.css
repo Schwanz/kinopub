@@ -658,12 +658,12 @@ FORM#form-item-filter .jumbotron {
     background: none;
     border-bottom: 1px solid #363a3f;
     border-radius: 0;
-    padding: 0 0 12px;
+    padding: 0 0 1px;
     position: relative;
 }
 
 FORM#form-item-filter .jumbotron > .row {
-    height: 25px;
+    height: 37px;
     overflow: hidden;
     padding-top: 10px;
     position: relative;
@@ -776,6 +776,12 @@ FORM#form-item-filter H3 {
 FORM#form-item-filter H3.pull-left {
     margin-right: 15px;
     margin-top: 22px;
+}
+
+FORM#form-item-filter:hover .jumbotron {
+    height: 250px;
+    overflow: visible;
+    padding-bottom: 12px;
 }
 
 FORM#form-item-filter:hover .jumbotron > .row {
