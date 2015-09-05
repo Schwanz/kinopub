@@ -811,7 +811,7 @@ INPUT[type=checkbox], INPUT[type=radio] {
     vertical-align: middle;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1380px) {
   FORM#form-item-filter + .row > .col-md-2 {    
     width: 16.6667% !important;
   }
