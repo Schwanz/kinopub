@@ -20,6 +20,12 @@
     margin: 3ex 0 1em;
 }
 
+#w0 .panel-body IMG {
+    background-color: #aaa;
+    padding: 0 1em;
+    height: 75px;
+}
+
 #w0 .panel-body H2 + P {
     margin-bottom: 1em;
 }
