@@ -779,8 +779,6 @@ FORM#form-item-filter H3.pull-left {
 }
 
 FORM#form-item-filter:hover .jumbotron {
-    height: 250px;
-    overflow: visible;
     padding-bottom: 12px;
 }
 
