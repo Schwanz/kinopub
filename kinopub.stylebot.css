@@ -802,7 +802,7 @@ FORM#form-item-filter H3.pull-left {
 }
 
 FORM#form-item-filter:hover .jumbotron {
-    padding-bottom: 12px;
+	padding-bottom: 12px;
 }
 
 FORM#form-item-filter:hover .jumbotron > .row {
