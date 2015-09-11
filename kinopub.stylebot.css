@@ -125,6 +125,7 @@
 	display: table;
 	margin-bottom: 20px;
 	width: 100%;
+	max-width: 470px;
 }
 
 .col-md-4 .rating .btn-group {
@@ -157,6 +158,7 @@
 	background-color: #262a2f;
 	border-color: #363a3f;
 	border-radius: 2px;
+	max-width: 470px;
 }
 
 .col-md-4 .thumbnail IMG {
