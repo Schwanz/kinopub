@@ -25,7 +25,8 @@
 }
 
 #w0 .panel-body IMG {
-    background-color: #aaa;
+    background-color: #ccc;
+    border-radius: 2px;
     height: 75px;
     padding: 0 1em;
 }
@@ -69,6 +70,14 @@
     border-radius: 2px;
     color: #aaa;
     font-size: 13px;
+}
+
+.btn .fa-thumbs-o-down:before {
+    content: "";
+}
+
+.btn .fa-thumbs-o-up:before {
+    content: "";
 }
 
 .btn-sm, .btn-xs {
@@ -127,8 +136,7 @@
     border-color: #363a3f;
     border-radius: 2px;
     display: inline-block;
-    width: 73%
-;
+    width: 73%;
 }
 
 .col-xs-8.pull-right .nav {
@@ -144,6 +152,24 @@
     padding: 0 30px;
     position: absolute;
     width: 100%;
+}
+
+.copyright .col-md-5 {
+    text-align: center;
+}
+
+.copyright .fa {
+    width: 18px;
+}
+
+.copyright .fa + A {
+    display: inline-block;
+    height: 18px;
+    margin-left: -20px;
+    opacity: 0;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 20px;
 }
 
 .episode {
@@ -209,15 +235,16 @@
     font-size: 12px;
     left: 150%;
     line-height: 1;
-    padding: 5px 8px 4px;
+    padding: 5px 8px;
     position: absolute;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    top: 5px;
+    top: 0;
     transform: translateX(-50%);
     white-space: nowrap;
     width: 130px;
+    z-index: 1;
 }
 
 .filter-visibility-toggle:hover {
@@ -253,6 +280,7 @@
 
 .item + H4 A, .item + H5 A {
     color: #ccc;
+    letter-spacing: -0.5px;
     text-decoration: none;
 }
 
@@ -416,9 +444,18 @@
     padding-top: 0;
 }
 
+.page-content > .row:first-child .pull-right .btn {
+    font-family: 'Cuprum';
+    font-size: 12px;
+    line-height: 1;
+    padding: 4px 8px ;
+    text-transform: uppercase;
+}
+
 .page-content > .row:first-child .pull-right BIG {
     display: inline-block;
-    margin-right: 15px;
+    font-size: 13px;
+    margin-right: 10px;
 }
 
 .page-header .navbar .navbar-nav .badge {
@@ -553,9 +590,6 @@
     margin-right: 2em;
 }
 
-.rating {
-}
-
 .rating .btn {
     padding: 1px 6px;
 }
@@ -670,6 +704,10 @@
 
 :focus, :active, .btn:focus, .btn:active, .bootstrap-select .btn:focus, .bootstrap-select .btn:active {
     outline: none;
+}
+
+B, STRONG {
+    font-weight: 600;
 }
 
 BODY {
@@ -856,6 +894,10 @@ HTML, BODY {
 INPUT[type=checkbox], INPUT[type=radio] {
     margin: -2px 0 0;
     vertical-align: middle;
+}
+
+TH {
+    font-weight: 600;
 }
 
 @media only screen and (max-width: 1380px) {
