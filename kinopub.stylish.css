@@ -25,7 +25,8 @@
 }
 
 #w0 .panel-body IMG {
-    background-color: #aaa !important;
+    background-color: #ccc !important;
+    border-radius: 2px !important;
     height: 75px !important;
     padding: 0 1em !important;
 }
@@ -69,6 +70,14 @@
     border-radius: 2px !important;
     color: #aaa !important;
     font-size: 13px !important;
+}
+
+.btn .fa-thumbs-o-down:before {
+    content: "" !important;
+}
+
+.btn .fa-thumbs-o-up:before {
+    content: "" !important;
 }
 
 .btn-sm, .btn-xs {
@@ -127,8 +136,7 @@
     border-color: #363a3f !important;
     border-radius: 2px !important;
     display: inline-block !important;
-    width: 73%
- !important;
+    width: 73% !important;
 }
 
 .col-xs-8.pull-right .nav {
@@ -144,6 +152,24 @@
     padding: 0 30px !important;
     position: absolute !important;
     width: 100% !important;
+}
+
+.copyright .col-md-5 {
+    text-align: center !important;
+}
+
+.copyright .fa {
+    width: 18px !important;
+}
+
+.copyright .fa + A {
+    display: inline-block !important;
+    height: 18px !important;
+    margin-left: -20px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+    vertical-align: middle !important;
+    width: 20px !important;
 }
 
 .episode {
@@ -209,15 +235,16 @@
     font-size: 12px !important;
     left: 150% !important;
     line-height: 1 !important;
-    padding: 5px 8px 4px !important;
+    padding: 5px 8px !important;
     position: absolute !important;
     text-align: center !important;
     text-decoration: none !important;
     text-transform: uppercase !important;
-    top: 5px !important;
+    top: 0 !important;
     transform: translateX(-50%) !important;
     white-space: nowrap !important;
     width: 130px !important;
+    z-index: 1 !important;
 }
 
 .filter-visibility-toggle:hover {
@@ -253,6 +280,7 @@
 
 .item + H4 A, .item + H5 A {
     color: #ccc !important;
+    letter-spacing: -0.5px !important;
     text-decoration: none !important;
 }
 
@@ -416,9 +444,18 @@
     padding-top: 0 !important;
 }
 
+.page-content > .row:first-child .pull-right .btn {
+    font-family: 'Cuprum' !important;
+    font-size: 12px !important;
+    line-height: 1 !important;
+    padding: 4px 8px  !important;
+    text-transform: uppercase !important;
+}
+
 .page-content > .row:first-child .pull-right BIG {
     display: inline-block !important;
-    margin-right: 15px !important;
+    font-size: 13px !important;
+    margin-right: 10px !important;
 }
 
 .page-header .navbar .navbar-nav .badge {
@@ -553,9 +590,6 @@
     margin-right: 2em !important;
 }
 
-.rating {
-}
-
 .rating .btn {
     padding: 1px 6px !important;
 }
@@ -670,6 +704,10 @@
 
 :focus, :active, .btn:focus, .btn:active, .bootstrap-select .btn:focus, .bootstrap-select .btn:active {
     outline: none !important;
+}
+
+B, STRONG {
+    font-weight: 600 !important;
 }
 
 BODY {
@@ -856,6 +894,10 @@ HTML, BODY {
 INPUT[type=checkbox], INPUT[type=radio] {
     margin: -2px 0 0 !important;
     vertical-align: middle !important;
+}
+
+TH {
+    font-weight: 600 !important;
 }
 
 @media only screen and (max-width: 1380px) {
