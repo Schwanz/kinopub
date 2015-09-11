@@ -118,25 +118,45 @@
 }
 
 .col-md-4 .rating {
-    display: block !important;
-    margin-bottom: 20px
- !important;
+    display: table !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
 }
 
-.col-md-4 .rating .btn-group .btn:first-child {
-    border-radius: 2px 0 0 2px !important;
+.col-md-4 .rating .btn-group {
+    white-space: nowrap !important;
 }
 
-.col-md-4 .rating .btn-group .btn:first-child + .btn {
-    border-radius: 0 2px 2px 0 !important;
+.col-md-4 .rating .btn-group .btn {
+    display: inline-block !important;
+    float: none !important;
+    vertical-align: top !important;
+}
+
+.col-md-4 .rating > .row {
+    display: table-row !important;
+}
+
+.col-md-4 .rating > .row > DIV {
+    display: table-cell !important;
+    float: none !important;
+    padding: 0 !important;
+    vertical-align: top !important;
+}
+
+.col-md-4 .rating > .row > DIV:first-child {
+    padding-right: 20px !important;
+    width: 90% !important;
 }
 
 .col-md-4 .thumbnail {
     background-color: #262a2f !important;
     border-color: #363a3f !important;
     border-radius: 2px !important;
-    display: inline-block !important;
-    width: 73% !important;
+}
+
+.col-md-4 .thumbnail IMG {
+    width: 100% !important;
 }
 
 .col-xs-8.pull-right .nav {
@@ -901,43 +921,43 @@ TH {
 }
 
 @media only screen and (max-width: 1380px) {
-  FORM#form-item-filter + .row > .col-md-2 {    
+  FORM#form-item-filter + .row > .col-md-2 {
     width: 14.2857% !important;
   }
 }
 
 @media only screen and (max-width: 1100px) {
-  .mediaplayer #continue object {    
+  .mediaplayer #continue object {
     width: 100% !important;
   }
-  FORM#form-item-filter + .row > .col-md-2 {    
+  FORM#form-item-filter + .row > .col-md-2 {
     width: 16.6667% !important;
   }
 }
 
 @media only screen and (max-width: 991px) {
-  FORM#form-item-filter + .row > .col-md-2 {    
+  FORM#form-item-filter + .row > .col-md-2 {
     width: 20% !important;
   }
-  .page-content {    
+  .page-content {
     padding-top: 16px !important;
   }
 }
 
 @media only screen and (max-width: 769px) {
-  FORM#form-item-filter + .row > .col-md-2 {    
+  FORM#form-item-filter + .row > .col-md-2 {
     width: 25% !important;
   }
 }
 
 @media only screen and (max-width: 666px) {
-  FORM#form-item-filter + .row > .col-md-2 {    
+  FORM#form-item-filter + .row > .col-md-2 {
     width: 33.333% !important;
   }
 }
 
 @media only screen and (max-width: 420px) {
-  FORM#form-item-filter + .row > .col-md-2 {    
+  FORM#form-item-filter + .row > .col-md-2 {
     width: 50% !important;
   }
 }
