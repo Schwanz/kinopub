@@ -163,6 +163,10 @@
 	width: 100%;
 }
 
+.col-xs-4.text-center.margin-t-5 {
+	margin-top: 0;
+}
+
 .col-xs-8.pull-right .nav {
 	position: relative;
 	top: -20px;
