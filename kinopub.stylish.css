@@ -40,6 +40,8 @@
 }
 
 .badge {
+	-webkit-border-radius: 2px !important;
+	-moz-border-radius: 2px !important;
 	border-radius: 2px !important;
 	border-width: 1px !important;
 }
@@ -333,6 +335,9 @@
 .item .badge {
 	border-color: #ccc !important;
 	height: 22px !important;
+	-webkit-border-radius: 2px !important;
+	-moz-border-radius: 2px !important;
+	border-radius: 2px !important;
 }
 
 .item .hd {
@@ -478,7 +483,7 @@
 	font-family: 'Cuprum' !important;
 	font-size: 12px !important;
 	line-height: 1 !important;
-	padding: 4px 8px  !important;
+	padding: 4px 8px !important;
 	text-transform: uppercase !important;
 }
 
@@ -498,7 +503,8 @@
 }
 
 .page-header .navbar .navbar-nav .dropdown-menu {
-	background: linear-gradient(to bottom, #262a2f , #111) !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #262a2f), color-stop(100%, #111)) !important;
+	background-image: linear-gradient(to bottom, #262a2f , #111) !important;
 	border-bottom: 1px solid #262a2f !important;
 	margin-top: 0 !important;
 }
@@ -506,22 +512,25 @@
 .page-header .navbar .navbar-nav .dropdown-menu > LI > A {
 	margin-right: -20px !important;
 	padding: 20px 30px !important;
+	overflow: hidden;
 }
 
 .page-header .navbar .navbar-nav > LI > A {
-	background: linear-gradient(to bottom, #262a2f , #111) !important;
-	background-color: #262a2f !important;
-	padding: 20px 30px !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #262a2f), color-stop(100%, #111)) !important;
+	background-image: linear-gradient(to bottom, #262a2f , #111) !important;
+	line-height: 24px;
+	padding: 18px 30px !important;
 }
 
 .page-header .navbar .navbar-nav > LI > A:hover {
-	background: linear-gradient(to bottom, #363a3f , #111) !important;
-	background-color: #363a3f !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #363a3f), color-stop(100%, #111)) !important;
+	background-image: linear-gradient(to bottom, #363a3f , #111) !important;
 	color: #999 !important;
 }
 
 .page-header .navbar .navbar-nav LI.open > A {
-	background: linear-gradient(to bottom, #363a3f , #262a2f) !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #363a3f), color-stop(100%, #262a2f)) !important;
+	background-image: linear-gradient(to bottom, #363a3f , #262a2f) !important;
 	color: #aaa !important;
 }
 
@@ -953,6 +962,9 @@ TH {
 	FORM#form-item-filter + .row > .col-md-2 {
 		width: 20% !important;
 	}
+	.filter-visibility-toggle {
+		left: 100% !important;
+	}
 	.page-content {
 		padding-top: 16px !important;
 	}
@@ -961,6 +973,18 @@ TH {
 @media only screen and (max-width: 769px) {
 	FORM#form-item-filter + .row > .col-md-2 {
 		width: 25% !important;
+	}
+	.filter-visibility-toggle {
+		left: auto !important;
+		position: relative !important;
+		top: -16px !important;
+		-webkit-transform: translateX(0) !important;
+				transform: translateX(0) !important;
+	}
+	.page-content > .row:first-child .pull-right {
+		margin-top: -24px !important;
+		position: relative !important;
+		top: -16px !important;
 	}
 }
 

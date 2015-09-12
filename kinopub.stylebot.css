@@ -953,6 +953,9 @@ TH {
 	FORM#form-item-filter + .row > .col-md-2 {
 		width: 20% !important;
 	}
+	.filter-visibility-toggle {
+		left: 100% !important;
+	}
 	.page-content {
 		padding-top: 16px !important;
 	}
@@ -961,6 +964,18 @@ TH {
 @media only screen and (max-width: 769px) {
 	FORM#form-item-filter + .row > .col-md-2 {
 		width: 25% !important;
+	}
+	.filter-visibility-toggle {
+		left: auto !important;
+		position: relative !important;
+		top: -16px !important;
+		-webkit-transform: translateX(0) !important;
+				transform: translateX(0) !important;
+	}
+	.page-content > .row:first-child .pull-right {
+		margin-top: -24px !important;
+		position: relative !important;
+		top: -16px !important;
 	}
 }
 
