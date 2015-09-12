@@ -500,6 +500,9 @@
 	line-height: 1 !important;
 	padding: 3px 6px 2px !important;
 	text-transform: uppercase !important;
+	-webkit-border-radius: 2px !important;
+	-moz-border-radius: 2px !important;
+	border-radius: 2px !important;
 }
 
 .page-header .navbar .navbar-nav .dropdown-menu {
