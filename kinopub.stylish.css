@@ -952,6 +952,12 @@ TH {
 	}
 }
 
+@media only screen and (min-width: 1900px) {
+	FORM#form-item-filter + .row > .col-md-2 {
+		width: 10% !important;
+	}
+}
+
 @media only screen and (max-width: 1100px) {
 	.mediaplayer #continue object {
 		width: 100% !important;
