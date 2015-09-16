@@ -416,6 +416,24 @@
 	background-color: #262a2f;
 }
 
+.list-group-item {
+	background-color: transparent;
+	border-color: #363a3f;
+	color: #ccc;
+}
+
+.list-group-item.active {
+	background-color: #262a2f;
+}
+
+.list-group-item:first-child {
+	border-radius: 2px 2px 0 0;
+}
+
+.list-group-item:last-child {
+	border-radius: 0 0 2px 2px;
+}
+
 .lslide {
 	position: relative;
 }
